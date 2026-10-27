@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AURA | Find Your Frequency</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="#" class="logo">aura<span>.</span></a>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#discover">Discover</a>
+      <a href="#collection">Collection</a>
+    </nav>
+
+    <button id="themeBtn" class="theme-btn">☼ / ☾</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">✦ YOUR PERSONAL MOOD UNIVERSE</p>
+
+        <h1>Find the sound<br>of <span>your feeling.</span></h1>
+
+        <p class="description">
+          Every mood has a frequency.
+          Choose what is on your mind and discover
+          a little universe made just for you.
+        </p>
+
+        <a href="#discover" class="main-btn">
+          Explore your mood <span>↗</span>
+        </a>
+
+        <p class="small-note">✧ Made for the moments between moments</p>
+      </div>
+
+      <div class="universe">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="orbit orbit-three"></div>
+
+        <div class="planet">
+          <div class="planet-light"></div>
+        </div>
+
+        <span class="star star-one">✦</span>
+        <span class="star star-two">✧</span>
+        <span class="star star-three">✦</span>
+
+        <div class="floating-note">breathe in ✧</div>
+      </div>
+    </section>
+
+    <section class="section" id="discover">
+      <p class="eyebrow">01 / CHECK IN WITH YOURSELF</p>
+      <h2>What's your <span>frequency?</span></h2>
+
+      <p class="section-description">
+        No right answers. Just choose what feels like you.
+      </p>
+
+      <div class="mood-grid">
+        <button class="mood-card active" data-mood="dreamy">
+          <span class="mood-icon">☾</span>
+          <h3>Dreamy</h3>
+          <p>Somewhere in the clouds</p>
+        </button>
+
+        <button class="mood-card" data-mood="focused">
+          <span class="mood-icon">✳</span>
+          <h3>Focused</h3>
+          <p>Ready to make things happen</p>
+        </button>
+
+        <button class="mood-card" data-mood="sunny">
+          <span class="mood-icon">☼</span>
+          <h3>Sunny</h3>
+          <p>A little extra light</p>
+        </button>
+
+        <button class="mood-card" data-mood="wild">
+          <span class="mood-icon">✺</span>
+          <h3>Restless</h3>
+          <p>Ready for a new adventure</p>
+        </button>
+      </div>
+    </section>
+
+    <section class="section collection" id="collection">
+      <p class="eyebrow">02 / CURATED FOR YOU</p>
+      <h2 id="collectionTitle">A softer kind of <span>night.</span></h2>
+      <p id="collectionDescription" class="section-description">
+        Slow down. Let your thoughts drift somewhere beautiful.
+      </p>
+
+      <div class="playlist">
+        <div class="album">
+          <div class="album-planet"></div>
+          <span class="album-stars">✦ · ✧</span>
+          <div class="album-title">
+            AURA
+            <small>VOL. 01</small>
+          </div>
+        </div>
+
+        <div class="playlist-content">
+          <p class="eyebrow" id="playlistLabel">THE NIGHT EDIT</p>
+          <h3 id="playlistTitle">Clouds on the Ceiling</h3>
+          <p id="playlistDescription">A little space to exhale.</p>
+
+          <div class="tracks" id="tracks">
+            <button class="track">
+              <span>01</span>
+              <span>Velvet Skies<small>Low Tide</small></span>
+              <span>3:42</span>
+            </button>
+
+            <button class="track">
+              <span>02</span>
+              <span>Half Asleep<small>June Atlas</small></span>
+              <span>4:10</span>
+            </button>
+
+            <button class="track">
+              <span>03</span>
+              <span>Blue Hour<small>Little North</small></span>
+              <span>5:03</span>
+            </button>
+
+            <button class="track">
+              <span>04</span>
+              <span>Slow Orbit<small>Somewhere Else</small></span>
+              <span>5:15</span>
+            </button>
+          </div>
+
+          <div class="playlist-actions">
+            <button id="surpriseBtn" class="text-btn">
+              ⤨ Surprise me
+            </button>
+
+            <button id="previewBtn" class="main-btn preview-btn">
+              ▶ Preview vibe
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <p class="small-note">
+        AURA is an interactive mood discovery experience.
+      </p>
+    </section>
+
+    <section class="quote-section">
+      <p class="eyebrow">A LITTLE REMINDER</p>
+
+      <blockquote>
+        You don't have to name every feeling.
+        <span>Sometimes, you just have to feel it.</span>
+      </blockquote>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#" class="logo">aura<span>.</span></a>
+    <p>A tiny universe for your very human feelings.</p>
+    <a href="#home" class="back-top">BACK TO THE STARS ↑</a>
+  </footer>
+
+</body>
+</html>
